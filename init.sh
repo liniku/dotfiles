@@ -13,3 +13,6 @@ if [ ! -L ~/.vim ]; then
 	rm -rf ~/.vim
 fi
 ln -snf ${DOTFILES_DIR}/.vim/ ~/.vim
+
+# gdb setting
+ln -sf ${DOTFILES_DIR}/.gdbinit ~/.gdbinit

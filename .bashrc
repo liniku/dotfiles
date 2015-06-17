@@ -17,6 +17,8 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
+# for debug
+alias objdump='objdump -M'
 
 # git completion
 if [ -f ~/.git-completion.bash ]; then
